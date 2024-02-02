@@ -15,4 +15,6 @@ efibootmgr
 mount /dev/nvme0n1p1 /boot/efi
 
 grub-install --target=x86_64-efi --efi-directory=/boot/efi/ --bootloader-id=slackware
+
+grub-mkconfig -o /boot/grub/grub.cfg
 ```
