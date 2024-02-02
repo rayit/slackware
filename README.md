@@ -23,3 +23,24 @@ grub-mkconfig -o /boot/grub/grub.cfg
 umount -a
 reboot
 ```
+
+
+
+
+## Extra
+
+https://sbopkg.org/downloads.php
+
+Download by clicking here (prebuild package)
+
+As root:
+```bash
+installpkg sbopkg-0.38.2-noarch-1_wsr.tgz
+
+sbopkg
+```
+
+sync
+
+Search for the libconfig package and install it.
+Search for sboui and install it.
